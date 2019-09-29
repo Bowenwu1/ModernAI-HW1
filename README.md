@@ -1,6 +1,4 @@
-<center class="half">
-    <img src="fig/curve_result/10_3/curve.png" width="200"/><img src="fig/gd_result/0.1_gd_2000_20_2000/descent.png" width="200"/><img src="图片链接" width="200"/>
-</center>
+![](fig/curve_result/10_3/curve.png) ![](fig/gd_result/0.1_gd_2000_20_2000/descent.png)
 
 # 现代人工智能技术HW1
 Code Released for Homework1 of Modern AI course.
