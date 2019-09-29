@@ -1,8 +1,43 @@
-![](fig/curve_result/10_3/curve.png) ![](fig/gd_result/0.1_gd_2000_20_2000/descent.png)
+ 
+
+| ![](fig/curve_result/10_3/curve.png)  | ![](fig/gd_result/0.1_gd_2000_20_2000/descent.png)   |
+| ------------------------------------- | ---------------------------------------------------- |
+| ![](fig/curve_result/200_9/curve.png) | ![](fig/gd_result/0.01_gd_2000_200_2000/descent.png) |
+
+
 
 # 现代人工智能技术HW1
+
 Code Released for Homework1 of Modern AI course.
----
+
+由于github无法支持markdown嵌入latex公式，大家可以阅读pdf.
+
+运行脚本位于 `code/run.sh`
+
+如果本repo对你有帮助，请点亮star，有任何问题可以提出issue讨论，我会及时回复！
+
+## 题目
+
+> 编程模拟仿真：多项式回归
+>
+> 参见 textbook p4-12。完成以下任务：
+>
+> 1. 生成正弦序列s(n);
+>
+> 2. 使用噪声函数对正弦序列加噪x(n)=s(n)+w(n);
+>
+> 3. 使用多项式回归模型对x(n)进行拟合，并分析过拟合和欠拟合情况
+>
+> **注：参考误差函数式 1-2，带正则项的修正误差函数式 1-4，实验仿真生成图 1-6、图 1-7，并给出有关系数表。
+
+
+
+> 1. Generate n = 2,000 points uniformly at random in the two-dimensional unit square. Which point do you expect the centroid to be?
+> 2. What objective does the centroid of the points optimize?
+> 3. Apply gradient descent (GD) to find the centroid.
+> 4. Apply stochastic gradient descent (SGD) to find the centroid. Can you say in simple words, what the algorithm is doing?
+>
+> **In mathematics and physics, the centroid or geometric center of a plane figure is the arithmetic mean position of all the points in the figure. Informally, it is the point at which a cutout of the shape could be perfectly balanced on the tip of a pin.
 
 ## HW1.1
 
